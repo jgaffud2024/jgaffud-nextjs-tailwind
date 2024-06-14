@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Input, Button, Typography } from "@material-tailwind/react";
+// eslint-disable-next-line  react/no-unescaped-entities
 
 interface MyTypographyProps {
   variant?: string;

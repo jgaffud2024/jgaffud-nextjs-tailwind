@@ -16,9 +16,16 @@ export function Clients() {
   return (
     <section className="px-8 py-28">
       <div className="container mx-auto text-center">
-        <Typography variant="h6" color="blue-gray" className="mb-8">
-          My awesome clients
-        </Typography>
+      <Typography
+  variant="h6"
+  color="blue-gray"
+  className="mb-4 text-blue-gray-900 font-medium"
+  placeholder=""
+  onPointerEnterCapture={() => {}}
+  onPointerLeaveCapture={() => {}}
+>
+  My Awesome Clients
+</Typography>
         <div className="flex flex-wrap items-center justify-center gap-6">
           {CLIENTS.map((logo, key) => (
             <Image
